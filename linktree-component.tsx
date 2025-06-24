@@ -53,13 +53,13 @@ const CraveCookiesLinks = () => {
     {
       id: 2,
       title: 'LEAVE US A REVIEW',
-      url: 'https://g.co/kgs/CebRpfv',
+      url: 'https://g.co/kgs/TFF8R7k',
       gradient: 'bg-white'
     },
     {
       id: 3,
       title: 'ORDER ONLINE',
-      url: 'https://order.cravecookies.com/?location=11eff2d6da292402b3a97cc255b41050',
+      url: 'https://order.cravecookies.com',
       gradient: 'bg-white'
     },
     {
@@ -91,7 +91,7 @@ const CraveCookiesLinks = () => {
               <div className="absolute -inset-3 bg-gradient-to-r from-[#e8e8ed] to-[#f5f5f7] rounded-full opacity-50 blur-md"></div>
               <div className="relative rounded-full overflow-hidden shadow-md p-1.5 bg-white">
                 <img 
-                  src="./images/logo.png" 
+                  src="/images/logo.png" 
                   alt="Crave Cookies Logo" 
                   className="w-full h-full object-contain"
                   data-component-name="CraveCookiesLinks"
@@ -102,12 +102,12 @@ const CraveCookiesLinks = () => {
             <h1 className="text-2xl font-semibold mb-0.5 text-[#1d1d1f] tracking-tight relative z-10">CRAVE COOKIES</h1>
             <p className="text-xs text-[#86868b] uppercase tracking-widest mb-2 font-light relative z-10">GRAND OPENING</p>
             <div className="px-4 py-1.5 bg-[#f5f5f7] rounded-full text-sm text-[#86868b] mb-1.5 font-medium tracking-wide shadow-sm relative z-10 border border-[#e6e6e6]/30">
-              LAKELAND, FL
+              LOMBARD, IL
             </div>
             
             {/* Address with icon - clickable to open maps */}
             <a 
-              href="https://maps.apple.com/?address=3604+Harden+Blvd,+Lakeland,+FL+33803&ll=28.0142,-81.9573&q=Crave+Cookies"
+              href="https://maps.apple.com/?address=217+E+Roosevelt+Rd,+Lombard,+IL+60148&q=Crave+Cookies"
               className="flex items-center px-3 py-1 text-xs text-[#86868b] hover:text-[#edbd56] transition-colors duration-300 relative z-10"
               style={{ 
                 animation: mounted ? 'fadeIn 0.8s ease forwards 0.5s' : 'none',
@@ -118,7 +118,7 @@ const CraveCookiesLinks = () => {
                 <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path>
                 <circle cx="12" cy="10" r="3"></circle>
               </svg>
-              <span className="truncate" data-component-name="CraveCookiesLinks">3604 Harden Blvd, Lakeland, FL 33803</span>
+              <span className="truncate" data-component-name="CraveCookiesLinks">217 E Roosevelt Rd, Lombard, IL 60148</span>
             </a>
           </div>
           
@@ -147,7 +147,7 @@ const CraveCookiesLinks = () => {
                 >
                   <div className="flex items-center justify-center w-9 h-9 bg-white rounded-full mr-3 overflow-hidden shadow-sm border border-[#f5f5f7] p-0.5">
                     <img 
-                      src="./images/logo.png" 
+                      src="/images/logo.png" 
                       alt="Crave Cookies Logo" 
                       className="w-5 h-5 object-contain"
                       data-component-name="CraveCookiesLinks"

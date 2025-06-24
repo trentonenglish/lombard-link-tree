@@ -1,8 +1,8 @@
 {
-  "name": "crave-cookies-linktree-lakeland",
+  "name": "crave-cookies-linktree-lombard",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://trentonenglish.github.io/lakeland",
+  "homepage": "https://trentonenglish.github.io/lombard-link-tree",
   "dependencies": {
     "autoprefixer": "^10.4.16",
     "lucide-react": "^0.294.0",
